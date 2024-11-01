@@ -35,10 +35,6 @@ function createGrid(size) {
       hoverCount += 1;
       square.style.opacity = Math.max(0, (1- hoverCount * 0.1));
     });
-
-    square.addEventListener("mouseleave", () => {
-      square.style.backgroundColor = "#5b6078";
-    });
   }
 }
 
